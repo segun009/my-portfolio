@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 120px;
+    padding-left: 30px;
+}
+nav a {
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+}
+nav {
+    margin-right: 30px;
+}
+.ticket {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.my-backgrd {
+    width: 100vw;
+    height: 600px;
+}
+.second:before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+.inner {
+    display: flex;
+    position: absolute;
+    top: 24%;
+}
+.left {
+    width: 60%;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.right {
+    width: 40%;
+}
+.person {
+    width: 640px;
+}
+h4 {
+    color: rgb(197, 194, 194);
+}
+h1 {
+    color: white;
+    font-size: 50px;
+}
+.my-btn {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+}
+.lst-h1 {
+    margin-bottom: 30px;
+}
+.third {
+    background-color: red;
+    width: 100vw;
+    height: 30px;
+    margin-top: -5px;
+}
